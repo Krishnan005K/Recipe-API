@@ -14,6 +14,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/search" element={<FetchingPage />} />
         <Route path="/nutrient-search" element={<NutrientSearchPage />} />
+        <Route path="*" element={<HomePage />} />
       </Routes>
     </Router>
   );
