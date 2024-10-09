@@ -17,7 +17,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <h1>Recipe List</h1>
+      <h1> Your Recipe List</h1>
       <RecipeList recipes={recipes} handleRecipeClick={handleRecipeClick} />
       {selectedRecipeId && (
         <RecipeModal recipeId={selectedRecipeId} onClose={closeModal} />
