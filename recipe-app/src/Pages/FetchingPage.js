@@ -45,4 +45,4 @@ const FetchingPage = () => {
 };
 
 export default FetchingPage;
- new 
+ new  page 
