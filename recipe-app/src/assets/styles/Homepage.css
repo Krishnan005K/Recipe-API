@@ -1,0 +1,14 @@
+.recipe-section {
+    color: #1F2937;
+    padding: 2rem 0;
+
+  }
+  
+  .recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  
